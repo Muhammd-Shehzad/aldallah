@@ -1,0 +1,96 @@
+import 'package:get/get.dart';
+
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    'en_US': {
+      'welcome': 'Welcome to Aldaalah',
+      'choose': 'Choose your language to get started',
+      'english': 'English',
+      'arabic': 'Arabic',
+      'urdu': 'Urdu',
+      'Let\'s get started': 'Let\'s get started',
+      'Next': 'Next',
+      'Enter the verification we’ve sent to':
+          'Enter the verification we’ve sent to\n',
+      'Adaalah will need to verify your account.':
+          'Adaalah will need to verify your account.',
+      'Phone number': 'Phone number',
+      'Pakistan': 'Pakistan',
+      'Saudi Arabia': 'Saudi Arabia',
+      'UAE': 'UAE',
+      "Is this the correct number?": "Is this the correct number?",
+      "Edit": "Edit",
+      "Yes": "Yes",
+      'Enter your phone number': 'Enter yourphone number\n',
+      'Profile Info': 'Profile Info\n',
+      'Please provide your and and optional profile photo':
+          'Please provide your and and optional profile photo',
+      "Didn't receive the OTP? ": "Didn't receive the OTP? ",
+      "RESEND OTP": "RESEND OTP",
+      'Verify': 'Verify',
+      'Verification Successfuly': 'Verification Successfuly',
+      'OTP Verification': 'OTP Verification\n',
+      'Confirm': 'Confirm',
+    },
+    'ar_SA': {
+      'welcome': 'مرحبًا بك في الدلالة',
+      'choose': 'اختر لغتك للبدء',
+      'english': 'الإنجليزية',
+      'arabic': 'العربية',
+      'urdu': 'الأردية',
+      'Next': 'التالي',
+      'Enter the verification we’ve sent to': 'أدخل التحقق الذي أرسلناه إليك\n',
+      'Adaalah will need to verify your account.':
+          'سوف تحتاج العدالة إلى التحقق من حسابك.',
+      'Phone number': 'رقم التليفون',
+      'Pakistan': 'باكستان',
+      'Saudi Arabia': 'المملكة العربية السعودية',
+      'UAE': 'الإمارات العربية المتحدة',
+      "Is this the correct number?": "هل هذا هو الرقم الصحيح؟",
+      "Edit": 'يحرر',
+      "Yes": "نعم",
+      'Let\'s get started': 'دعونا نبدأ',
+      'Enter your phone number': 'أدخلرقم هاتفك\n',
+      'Profile Info': 'معلومات الملف الشخصي\n',
+      'Please provide your and and optional profile photo':
+          'يرجى تقديم صورة ملفك الشخصي الاختيارية',
+      "Didn't receive the OTP? ": "لم تستلم OTP؟",
+      "RESEND OTP": "إعادة إرسال OTP",
+      'Verify': 'يؤكد',
+      'Verification Successfuly': 'تم التحقق بنجاح',
+      'OTP Verification': 'التحقق من OTP\n',
+      'Confirm': 'يتأكد',
+    },
+    'ur_PK': {
+      'welcome': 'الدلالہ میں خوش آمدید',
+      'choose': 'شروع کرنے کے لیے اپنی زبان منتخب کریں',
+      'english': 'انگریزی',
+      'arabic': 'عربی',
+      'urdu': 'اردو',
+      'Next': 'اگلا',
+      'Adaalah will need to verify your account.':
+          'Adaalah کو آپ کے اکاؤنٹ کی تصدیق کرنے کی ضرورت ہوگی۔',
+      'Enter the verification we’ve sent to':
+          'وہ تصدیق درج کریں جو ہم نے بھیجی ہے۔\n',
+      'Let\'s get started': 'آئیے شروع کرتے ہیں۔',
+      'Phone number': 'فون نمبر',
+      'Pakistan': 'پاکستان',
+      'Saudi Arabia': 'سعودی عرب',
+      'UAE': 'یو اے ای',
+      "Is this the correct number?": "کیا یہ صحیح نمبر ہے؟",
+      "Edit": "ترمیم کریں",
+      "Yes": "ہاں",
+      'Enter your phone number': 'اپنا فون نمبردرج کریں\n',
+      'Profile Info': 'پروفائل کی معلومات\n',
+      'Please provide your and and optional profile photo':
+          'براہ کرم اپنی اور اختیاری پروفائل تصویر فراہم کریں',
+      "Didn't receive the OTP? ": "او ٹی پی موصول نہیں ہوا؟",
+      "RESEND OTP": "OTP دوبارہ بھیجیں",
+      'Verify': 'تصدیق کریں',
+      'Verification Successfuly': 'تصدیق کامیابی سے',
+      'OTP Verification': 'OTP تصدیق\n',
+      'Confirm': 'تصدیق کریں',
+    },
+  };
+}

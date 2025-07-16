@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533097574954",
+    "project_id": "aldallah-43209",
+    "storage_bucket": "aldallah-43209.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533097574954:android:58bfdc81fca160a5adc953",
+        "android_client_info": {
+          "package_name": "com.example.aldallah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgxsNvz90Q_LEOPGyJldR7U9iRgyQ5p2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
