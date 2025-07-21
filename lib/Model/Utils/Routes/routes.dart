@@ -1,4 +1,8 @@
 import 'package:aldallah/Model/Utils/Routes/routes_names.dart';
+import 'package:aldallah/View/Home/Chat/chat_screen.dart';
+import 'package:aldallah/View/Home/HomeScreen/home_screen.dart';
+import 'package:aldallah/View/Home/Setting/setting_screen.dart';
+import 'package:aldallah/View/Home/home.dart';
 import 'package:aldallah/View/OnbordingScreens/indicator_screen.dart';
 import 'package:aldallah/View/RegistrationScreen/RegScreen1/registration_screen1.dart';
 import 'package:aldallah/View/RegistrationScreen/RegScreen2/registration_screen2.dart';
@@ -35,6 +39,14 @@ class Routes {
           settings: setting,
           page: () => RegistrationScreen3(),
         );
+      case RoutesNames.Home:
+        return GetPageRoute(settings: setting, page: () => Home());
+      case RoutesNames.HomeScreen:
+        return GetPageRoute(settings: setting, page: () => HomeScreen());
+      case RoutesNames.ChatScreen:
+        return GetPageRoute(settings: setting, page: () => ChatScreen());
+      case RoutesNames.SettingScreen:
+        return GetPageRoute(settings: setting, page: () => SettingScreen());
 
       default:
         return GetPageRoute(

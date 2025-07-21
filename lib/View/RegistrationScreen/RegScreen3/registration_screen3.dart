@@ -1,5 +1,6 @@
 import 'package:aldallah/Model/Utils/Custom/CustomButton/custom_button.dart';
 import 'package:aldallah/Model/Utils/Custom/CustomTextRich/custom_text_rich.dart';
+import 'package:aldallah/Model/Utils/Routes/routes_names.dart';
 import 'package:aldallah/View/RegistrationScreen/RegScreen3/registration_screen3_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -28,8 +29,10 @@ class _RegistrationScreen3State extends State<RegistrationScreen3> {
             CustomTextRich(
               text1: 'Profile Info'.tr,
               sizeText1: 20.sp,
+              colorText1: Colors.black,
               text2: 'Please provide your and and optional profile photo'.tr,
               sizeText2: 14.sp,
+              colorText2: Colors.black,
             ),
             SizedBox(height: 20.h),
             Center(
@@ -60,7 +63,9 @@ class _RegistrationScreen3State extends State<RegistrationScreen3> {
             SizedBox(height: 250.h),
             Center(
               child: CustomButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.offAndToNamed(RoutesNames.Home);
+                },
                 btnHeight: 40.h,
                 btnWidth: 153.w,
                 btnColor: Color(0xFF084716),

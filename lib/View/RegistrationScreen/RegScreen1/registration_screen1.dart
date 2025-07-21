@@ -34,9 +34,11 @@ class _RegistrationScreen1State extends State<RegistrationScreen1> {
             SizedBox(height: 30.h),
             CustomTextRich(
               text1: 'Enter your phone number'.tr,
+              colorText1: Colors.black,
               sizeText1: 20.sp,
               text2: 'Adaalah will need to verify your account.'.tr,
               sizeText2: 14.sp,
+              colorText2: Colors.black,
             ),
 
             SizedBox(height: 30.h),

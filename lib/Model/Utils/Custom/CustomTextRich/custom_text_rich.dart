@@ -4,6 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class CustomTextRich extends StatelessWidget {
   final text1;
   final sizeText1;
+  final colorText1;
+  final colorText2;
   final sizeText2;
   final text2;
   CustomTextRich({
@@ -12,6 +14,8 @@ class CustomTextRich extends StatelessWidget {
     this.text2,
     this.sizeText1,
     this.sizeText2,
+    this.colorText1,
+    this.colorText2,
   });
 
   @override
@@ -23,14 +27,14 @@ class CustomTextRich extends StatelessWidget {
             TextSpan(
               text: text1,
               style: TextStyle(
-                color: Colors.black,
+                color: colorText1,
                 fontSize: sizeText1,
                 fontWeight: FontWeight.bold,
               ),
             ),
             TextSpan(
               text: text2,
-              style: TextStyle(color: Colors.black54, fontSize: sizeText2),
+              style: TextStyle(color: colorText2, fontSize: sizeText2),
             ),
           ],
         ),
