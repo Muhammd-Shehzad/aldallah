@@ -1,6 +1,7 @@
 import 'package:aldallah/Model/Utils/Language/language.dart';
 import 'package:aldallah/Model/Utils/Routes/routes.dart';
 import 'package:aldallah/Model/Utils/Routes/routes_names.dart';
+import 'package:aldallah/View/Home/HomeScreen/home_screen_view_model.dart';
 import 'package:aldallah/View/Home/home_view_model.dart';
 import 'package:aldallah/View/RegistrationScreen/RegScreen1/registration_screen1_view_model.dart';
 import 'package:aldallah/View/RegistrationScreen/RegScreen2/registration_screen2_view_model.dart';
@@ -36,6 +37,9 @@ void main() async {
                 create: (context) => RegistrationScreen3ViewModel(),
               ),
               ChangeNotifierProvider(create: (context) => HomeViewModel()),
+              ChangeNotifierProvider(
+                create: (context) => HomeScreenViewModel(),
+              ),
             ],
             child: GetMaterialApp(
               debugShowCheckedModeBanner: false,

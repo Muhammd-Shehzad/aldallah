@@ -7,6 +7,8 @@ class CustomTextRich extends StatelessWidget {
   final colorText1;
   final colorText2;
   final sizeText2;
+  final textWeight1;
+  final textWeight2;
   final text2;
   CustomTextRich({
     super.key,
@@ -16,6 +18,8 @@ class CustomTextRich extends StatelessWidget {
     this.sizeText2,
     this.colorText1,
     this.colorText2,
+    this.textWeight1,
+    this.textWeight2,
   });
 
   @override
@@ -29,12 +33,16 @@ class CustomTextRich extends StatelessWidget {
               style: TextStyle(
                 color: colorText1,
                 fontSize: sizeText1,
-                fontWeight: FontWeight.bold,
+                fontWeight: textWeight1,
               ),
             ),
             TextSpan(
               text: text2,
-              style: TextStyle(color: colorText2, fontSize: sizeText2),
+              style: TextStyle(
+                color: colorText2,
+                fontSize: sizeText2,
+                fontWeight: textWeight2,
+              ),
             ),
           ],
         ),

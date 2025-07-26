@@ -1,6 +1,7 @@
 import 'package:aldallah/View/Home/home_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:provider/provider.dart';
 
 class Home extends StatefulWidget {
@@ -32,16 +33,16 @@ class _HomeState extends State<Home> {
             switch (index) {
               case 0:
                 icon = Icons.grid_view;
-                label = 'Home';
+                label = 'Home'.tr;
 
                 break;
               case 1:
                 icon = Icons.chat_bubble_outline;
-                label = 'Chat Hubs';
+                label = 'Chat Hubs'.tr;
                 break;
               default:
                 icon = Icons.person_outline;
-                label = 'Settings';
+                label = 'Settings'.tr;
                 break;
             }
 

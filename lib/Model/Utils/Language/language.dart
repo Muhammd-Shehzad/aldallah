@@ -32,6 +32,11 @@ class AppTranslations extends Translations {
       'Verification Successfuly': 'Verification Successfuly',
       'OTP Verification': 'OTP Verification\n',
       'Confirm': 'Confirm',
+      'Peshawar': 'Peshawar',
+      'Remaining time to Fajir pray': 'Remaining time to Fajir pray\n',
+      'Home': 'Home',
+      'Chat Hubs': 'Chat Hubs',
+      'Settings': 'Settings',
     },
     'ar_SA': {
       'welcome': 'مرحبًا بك في الدلالة',
@@ -61,6 +66,11 @@ class AppTranslations extends Translations {
       'Verification Successfuly': 'تم التحقق بنجاح',
       'OTP Verification': 'التحقق من OTP\n',
       'Confirm': 'يتأكد',
+      'Peshawar': 'بيشاور',
+      'Remaining time to Fajir pray': 'الوقت المتبقي لصلاة الفجر\n',
+      'Home': 'بيت',
+      'Chat Hubs': 'مراكز الدردشة',
+      'Settings': 'إعدادات',
     },
     'ur_PK': {
       'welcome': 'الدلالہ میں خوش آمدید',
@@ -91,6 +101,11 @@ class AppTranslations extends Translations {
       'Verification Successfuly': 'تصدیق کامیابی سے',
       'OTP Verification': 'OTP تصدیق\n',
       'Confirm': 'تصدیق کریں',
+      'Peshawar': 'پشاور',
+      'Remaining time to Fajir pray': 'فجر کی نماز کا باقی وقت\n',
+      'Home': 'گھر',
+      'Chat Hubs': 'چیٹ حبس',
+      'Settings': 'ترتیبات',
     },
   };
 }
