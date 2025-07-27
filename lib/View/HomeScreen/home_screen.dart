@@ -1,5 +1,5 @@
 import 'package:aldallah/Model/Utils/Custom/CustomTextRich/custom_text_rich.dart';
-import 'package:aldallah/View/Home/HomeScreen/home_screen_view_model.dart';
+import 'package:aldallah/View/HomeScreen/home_screen_view_model.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
