@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           Positioned(
-            top: 150.h,
+            top: 130.h,
             left: 0.w,
             right: 0.w,
             child: Padding(
@@ -143,7 +143,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         textWeight2: FontWeight.bold,
                       ),
                     ),
-
                     Positioned(
                       top: 115.h,
                       left: 15.w,
@@ -179,14 +178,13 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           Positioned(
-            top: 320.h,
+            top: 300.h,
             left: 20.w,
             right: 20.w,
             child: SizedBox(
               height: 300.h,
               child: GridView.builder(
                 physics: NeverScrollableScrollPhysics(),
-
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 3,
                   crossAxisSpacing: 40.w,
@@ -200,25 +198,37 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        CircleAvatar(
-                          radius: 37.r,
-                          backgroundColor: Color(0xFF084716),
+                        InkWell(
+                          onTap: () => homeScreenViewModel.onTapFun(index),
                           child: CircleAvatar(
-                            backgroundColor: Color(0xFFE2BE7F),
-                            radius: 34.r,
+                            radius: 37.r,
+                            backgroundColor: Color(0xFF084716),
                             child: CircleAvatar(
-                              radius: 30.r,
-                              backgroundColor: Color(0xFF084716),
-                              child: ClipOval(
-                                child: SizedBox(
-                                  width: 30.w,
-                                  height: 30.h,
+                              backgroundColor: Color(0xFFE2BE7F),
+                              radius: 34.r,
+                              child: CircleAvatar(
+                                radius: 30.r,
+                                backgroundColor: Color(0xFF084716),
+                                child: ClipRRect(
                                   child: Image.asset(
                                     homeScreenViewModel
                                         .gridData[index]['image'],
-                                    fit: BoxFit.cover,
+                                    height: 30.h,
+                                    width: 30.w,
+                                    fit: BoxFit.contain,
                                   ),
                                 ),
+                                // child: ClipOval(
+                                //   child: SizedBox(
+                                //     width: 30.w,
+                                //     height: 30.h,
+                                //     child: Image.asset(
+                                //       homeScreenViewModel
+                                //           .gridData[index]['image'],
+                                //       fit: BoxFit.cover,
+                                //     ),
+                                //   ),
+                                // ),
                               ),
                             ),
                           ),

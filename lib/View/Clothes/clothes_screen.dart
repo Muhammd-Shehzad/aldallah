@@ -117,7 +117,7 @@ class _ClothesScreenState extends State<ClothesScreen> {
                               SizedBox(height: 10.h),
                               Text(
                                 "اللّهُـمَّ لَـكَ الحَـمْـدُ أنْـتَ كَسَـوْتَنيهِ، أََسْأََلُـكَ مِـنْ خَـيرِهِ وَخَـيْرِ مَا صُنِعَ لَـه، وَأَعوذُ بِكَ مِـنْ شَـرِّهِ وَشَـرِّ مـا صُنِعَ لَـهُ",
-                                style: TextStyle(fontSize: 24),
+                                style: TextStyle(fontSize: 24.sp),
                                 textAlign: TextAlign.right,
                               ),
                               SizedBox(height: 10.h),

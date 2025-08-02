@@ -9,4 +9,21 @@ class RoutesNames {
   static const String HomeScreen = 'home_screen';
   static const String ChatScreen = 'chat_screen';
   static const String SettingScreen = 'setting_screen';
+  static const String QiblaScreen = 'qibla_screen';
+  static const String DuaScreen = 'dua_screen';
+  static const String ZikarScreen = 'zikar_screen';
+  static const String MosqueScreen = 'mosque_screen';
+  static const String HijjAndUmrahScreen = 'hajj_and_umrah_screen';
+  static const String AccidentalDeathScreen = 'accidental_death_screen';
+  static const String GoodsMoralsScreen = 'goods_morals_screen';
+  static const String SuccessScreen = 'success_screen';
+  static const String RepentanceScreen = 'repentance_screen';
+  static const String GoodsEndScreen = 'goods_end_screen';
+  static const String RelieveOfDistressScreen = 'relieve_of_distress_screen';
+  static const String ClothesScreen = 'clothes_screen';
+  static const String ZakirScreen2 = 'zikar_screen2';
+  static const String IntroToHajjScreen = 'intro_to_hajj_screen';
+  static const String BasicUmrahGuidesScreen = 'basic_umrah_guides_screen';
+  static const String HowToWearIhramScreen = 'how_to_wear_ihram_screen';
+  static const String NewChatScreen = 'new_chat_screen';
 }

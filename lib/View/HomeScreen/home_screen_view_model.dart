@@ -1,4 +1,6 @@
+import 'package:aldallah/Model/Utils/Routes/routes_names.dart';
 import 'package:flutter/foundation.dart';
+import 'package:get/get.dart';
 
 class HomeScreenViewModel extends ChangeNotifier {
   final namazNames = ['Fajr', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'];
@@ -6,11 +8,11 @@ class HomeScreenViewModel extends ChangeNotifier {
   bool isSelected = true;
 
   List<Map<String, dynamic>> gridData = [
-    {'name': 'Qibla', 'image': 'assets/qibla.png'},
-    {'name': 'Dua', 'image': 'assets/Dua.png'},
-    {'name': 'Zikar', 'image': 'assets/Zikar.png'},
-    {'name': 'Mosques', 'image': 'assets/Mosque.png'},
-    {'name': 'Hajj & Umrah', 'image': 'assets/Hajj.png'},
+    {'name': 'Qibla', 'image': 'assets/qabilaIcon.png'},
+    {'name': 'Dua', 'image': 'assets/duaicon.png'},
+    {'name': 'Zikar', 'image': 'assets/zikarIcon.png'},
+    {'name': 'Mosques', 'image': 'assets/mosqueIcon.png'},
+    {'name': 'Hajj & Umrah', 'image': 'assets/hijjIcon.png'},
   ];
   List<Map<String, dynamic>> namzData = [
     {
@@ -39,4 +41,24 @@ class HomeScreenViewModel extends ChangeNotifier {
       'image': 'assets/teenyicons_down-solid.png',
     },
   ];
+
+  void onTapFun(int index) {
+    switch (index) {
+      case 0:
+        Get.toNamed(RoutesNames.QiblaScreen);
+        break;
+      case 1:
+        Get.toNamed(RoutesNames.DuaScreen);
+        break;
+      case 2:
+        Get.toNamed(RoutesNames.ZikarScreen);
+        break;
+      case 3:
+        Get.toNamed(RoutesNames.MosqueScreen);
+        break;
+      case 4:
+        Get.toNamed(RoutesNames.HijjAndUmrahScreen);
+        break;
+    }
+  }
 }
